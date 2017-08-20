@@ -1,10 +1,10 @@
 # Overview
-An Aurelia seed project which contains all the required files that 
+An Aurelia seed project which contains all the required files that
 helps you create your own Hello World Aurelia Application
 
 # Create your "Hello World" application
 
-1. First create a TypeScript file named: **app.ts** 
+1. First create a TypeScript file named: **app.ts**
 2. Then copy and paste this code to the file:
 ```
 export class App {
@@ -13,10 +13,11 @@ export class App {
 ```
 
 3. Create an HTML file named: **app.html**
-4. Afterwards, copy and paste this code: 
+4. Afterwards, copy and paste this code:
 ```
 <template>
   <h1>${msg}</h1>
+  <p>${answer}</p>
 </template>
 ```
 
@@ -27,7 +28,7 @@ If you have NodeJS and NPM installed, you can add a HTTP-Server by running these
 
    sudo -i
    npm install http-server -g
-  
+
 Afterwards, run this:
 
    http-server -o -c-1
